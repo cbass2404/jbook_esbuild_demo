@@ -27,7 +27,7 @@ const App = () => {
             plugins: [unpkgPathPlugin()],
         });
 
-        // console.log(result)
+        // console.log
 
         setCode(result.outputFiles[0].text);
     };
